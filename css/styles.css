@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+   background-image: url(../assets/img/INFINITE\ VOID.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+h2 {
+    font-size: 3rem; /* Tamaño de fuente */
+    color: rgb(255, 255, 255); /* Color Vibra */
+    letter-spacing: 0.4rem; /*Espacio*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #ffffff
+       0 0 5px #ffffff
+       0 0 10px #ffffff
+       0 0 15px #ffffff;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+section{
+    padding: 1.5rem;
+}
+
+h2{
+    font-size: 5rem;
+    letter-spacing: 1rem;
+}
+.footer{
+    background-color: #0015ff00;
+    color: #00000000;
+    padding: 20px;
+    text-align: center;
+}
+.footer-links{
+    margin: 0 10 px;
+    color: #0a5621;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.footer-links a:hover {
+    color: #0bf96e;
+}
